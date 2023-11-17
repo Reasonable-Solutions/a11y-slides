@@ -18,20 +18,34 @@
 (define (ltt body-text)
   (para #:align 'left (tt body-text)))
 
-(slide #:title "Teknisk demo: Tilgjenglighetserklæring"
+
+(slide #:title "Teknisk demo: Tilgjengelighetserklæring"
        uu-katt
        (t "Carl Hedgren")
        (t "Rannveig A. Skjerve")
        ) 
 
-(slide #:title "Vi lagde ett verktøy"
-       (t "Ibland blir det sån")
+(slide #:title "Tilgjengelighetserklæring er et krav"
+       (t "Norge innførte EU sitt Web Accessibility Directive i 2021"
+       )
+       (t "Det innebærer et rapporteringskrav fra vår side")
+       'next
+       (t "Via et grensesnitt med en webportal (Du logger in med organisasjonsnummer)")
+       (t "Det blir fort _veldig jobbigt_"))
+
+(slide #:title "Vi laget et verktøy"
+       (t "Av og til blir det slik")
        'next
        (t "Hva med /.well-known-url/wcag-report?")
        'next
-       (t "Går dette å automatisere?")
+       (t "Kan dette automatiseres?")
        'next 
-       (t "Hva med ett Api fra digdir? "))
+       (t "Hva med et API fra Digdir? "))
 
-(slide #:title "Demo")
-    
+(slide #:title "Demo"
+       uu-katt)
+
+
+(slide #:title "Takk for oss"
+       (t "CONTRIBUTIONS AND PULL REQUESTS ARE WELCOME")
+       (t "navikt/accessibility-tool"))
