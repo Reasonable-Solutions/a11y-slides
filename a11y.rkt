@@ -1,18 +1,17 @@
 #lang slideshow ; or slideshow/widescreen
 
 (require racket/runtime-path
-         rsvg
          pict)
 
-(define-runtime-path katt.svg "UU-katt.svg")
+(define-runtime-path katt.svg "UU-katt.png")
 
-(define uu-katt (svg-file->pict katt.svg 0.2))
+(define uu-katt (bitmap katt.svg))
 
 (define (ltt body-text)
   (para #:align 'left (tt body-text)))
 
 (slide #:title "Teknisk demo: Hvordan lage Tilgjengelighetserklæring"
-       uu-katt
+       (scale uu-katt 0.3)
        (t "Carl Hedgren")
        (t "Rannveig A. Skjerve")
        )
@@ -37,7 +36,7 @@
        (t "Hva med et API fra Digdir? "))
 
 (slide #:title "Demo"
-       uu-katt)
+      (scale uu-katt 0.3)
 
 
 (slide #:title "Takk for oss"
