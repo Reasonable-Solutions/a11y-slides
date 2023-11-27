@@ -27,16 +27,22 @@
        (t "Det blir fort _veldig jobbigt_"))
 
 (slide #:title "Vi laget et verktøy"
-       (t "Av og til blir det slik")
+       (ltt "Av og til blir det slik")
        'next
-       (t "Hva med /.well-known-url/wcag-report?")
+       (ltt "Hva med /.well-known-url/wcag-report?")
        'next
-       (t "Kan dette automatiseres?")
+       (t "Noen (tm) burde skrive en RFC")
        'next
-       (t "Hva med et API fra Digdir? "))
+       (ltt "Kan dette automatiseres?")
+       'next
+       (t "Njaaeeeeee")
+       'next
+       (ltt "Hva med et API fra Digdir? ")
+       'next
+       (t "Kanskje i en fremtidlig budsjett"))
 
 (slide #:title "Demo"
-      (scale uu-katt 0.3)
+      (scale uu-katt 0.3))
 
 
 (slide #:title "Takk for oss"
