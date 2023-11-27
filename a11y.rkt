@@ -6,18 +6,16 @@
 
 (define-runtime-path katt.svg "UU-katt.svg")
 
-
 (define uu-katt (svg-file->pict katt.svg 0.2))
 
 (define (ltt body-text)
   (para #:align 'left (tt body-text)))
 
-
 (slide #:title "Teknisk demo: Hvordan lage Tilgjengelighetserklæring"
        uu-katt
        (t "Carl Hedgren")
        (t "Rannveig A. Skjerve")
-       ) 
+       )
 
 (slide #:title "Tilgjengelighetserklæring er et krav"
        (t "Norge innførte EU sitt Web Accessibility Directive i 2021"
@@ -26,7 +24,7 @@
        'next
        (t "Via et grensesnitt med en webportal")
        (t "(Du logger in med organisasjonsnummer)")
-       'next 
+       'next
        (t "Det blir fort _veldig jobbigt_"))
 
 (slide #:title "Vi laget et verktøy"
@@ -35,7 +33,7 @@
        (t "Hva med /.well-known-url/wcag-report?")
        'next
        (t "Kan dette automatiseres?")
-       'next 
+       'next
        (t "Hva med et API fra Digdir? "))
 
 (slide #:title "Demo"
