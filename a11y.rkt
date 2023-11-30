@@ -17,8 +17,7 @@
        )
 
 (slide #:title "Tilgjengelighetserklæring er et krav"
-       (t "Norge innførte EU sitt Web Accessibility Directive i 2021"
-       )
+       (t "Norge innførte EU sitt Web Accessibility Directive i 2021")
        (t "Det innebærer et rapporteringskrav fra vår side")
        'next
        (t "Via et grensesnitt med en webportal")
@@ -46,5 +45,6 @@
 
 
 (slide #:title "Takk for oss"
+       (t "Husk fristen 15 des")
        (t "CONTRIBUTIONS AND PULL REQUESTS ARE WELCOME")
-       (t "navikt/accessibility-tool"))
+       (t "navikt/accessibility-reporting-tool"))
